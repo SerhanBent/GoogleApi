@@ -4,7 +4,7 @@
 [![NuGet](https://img.shields.io/nuget/v/GoogleApi.svg)](https://www.nuget.org/packages/GoogleApi)
 
 Seamless Google Api integrations.  
-Google Maps, Places, Roads, Search and Translate.  
+Google Maps.  
 
 Feel free to contribute, throw questions and report issues. **I usually respond fast (24-48 hours).**  
 Do you need support for an additional .Net framework?, let me know.  
@@ -77,29 +77,6 @@ The following api's are supported.
   * Time Zone
   * Street View
   * Static Maps
-
-##### Google Places
-  * Place Search
-    * Find (```GooglePlaces.Search.FindSearch```)
-    * Near By (```GooglePlaces.Search.NearBySearch```)
-    * Text (```GooglePlaces.Search.TextSearch```)
-  * Place Details (```GooglePlaces.Details```)
-  * Place Photos (```GooglePlaces.Photos```)
-  * Place Autocomplete (```GooglePlaces.AutoComplete```)
-  * Query Autocomplete (```GooglePlaces.QueryAutoComplete```)
-
-##### Google Search
-  * Web (```GoogleSearch.WebSearch```)
-  * Image (```GoogleSearch.ImageSearch```)
-  * Video (*beta*)
-    * Channels (```GoogleSearch.VideoSearch.Channels```)
-    * Playlists (```GoogleSearch.VideoSearch.Playlists```)
-    * Vidoes (```GoogleSearch.VideoSearch.Vidoes```)
-
-##### Google Translate
-  * Detect (```GoogleTranslate.Detect```)
-  * Languages (```GoogleTranslate.Languages```)
-  * Translate (```GoogleTranslate.Translate```)
 
 ##### Google Functions
   * MergePolyLine
