@@ -38,26 +38,7 @@ public static class ServiceCollectionExtensions
             .AddApi<GoogleMaps.StaticMapsApi>()
             .AddApi<GoogleMaps.TimeZoneApi>();
 
-        services
-            .AddApi<GooglePlaces.DetailsApi>()
-            .AddApi<GooglePlaces.PhotosApi>()
-            .AddApi<GooglePlaces.AutoCompleteApi>()
-            .AddApi<GooglePlaces.QueryAutoCompleteApi>()
-            .AddApi<GooglePlaces.Search.FindSearchApi>()
-            .AddApi<GooglePlaces.Search.NearBySearchApi>()
-            .AddApi<GooglePlaces.Search.TextSearchApi>();
-
-        services
-            .AddApi<GoogleSearch.WebSearchApi>()
-            .AddApi<GoogleSearch.ImageSearchApi>()
-            .AddApi<GoogleSearch.VideoSearch.ChannelsApi>()
-            .AddApi<GoogleSearch.VideoSearch.PlaylistsApi>()
-            .AddApi<GoogleSearch.VideoSearch.VideosApi>();
-
-        services
-            .AddApi<GoogleTranslate.DetectApi>()
-            .AddApi<GoogleTranslate.LanguagesApi>()
-            .AddApi<GoogleTranslate.TranslateApi>();
+    
 
         return services;
     }
